@@ -90,3 +90,6 @@ log.info("Previous Response URL is: " + ctx.getPreviousResult().getURL());
 log.info("Previous Response Time is: " + ctx.getPreviousResult().getTime());
 
 ```
+
+### Docker Integration for Grafana and Innfluxdb.
+To integrate the Jmeter with grafana for monitoring performance metrics during non-gui mode, see https://github.com/KarthicRepo/Gatling_Stress_test_using_scala  where I've shown this for Gatling. Everything is same except, in Jmeter you need to use the Backend listener for writing Jmeter metrics to Influxdb.
